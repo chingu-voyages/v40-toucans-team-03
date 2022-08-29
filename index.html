@@ -5,8 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toucans Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/3eaf94b212.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <!-- Log in modal -->
+    <div class="log-in-container">
+        <div class="log-in-section">
+            <h2>Log In</h2>
+            <h3>Not a member? <a href="./index.html" style="color: black;"> Sign Up</a></h3>
+
+            <form class="log-in-form">
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                     <input type="email" name="email" id="email" class="form-email form-input" placeholder="kobby@gymmail.com"> 
+
+                    <label for="pass">Password</label>
+                    <input type="password" class="form-password form-input" name="pass" id="pass">
+                
+                    <button type="button" class="form-btn">Log In</button>
+                </div>
+            </form>
+            <button type="button" class="close-btn">Close</button>
+        </div>
+
+    </div>
+
+    <!-- makeshift navbar -->
+    <nav class="navbar">
+        <ul>
+            <li>Some Gym</li>
+            <li><button class="nav-btn">Sign-up</button></li>
+        </ul>
+    </nav>
     
+    <!-- Location section -->
+    <div class="title">
+        <h1>Find Us Here...</h1>
+    </div>
+    
+    <div class="location-container">
+        
+        <div class="branch">
+            <div class="main-branch">
+                <h2>Our main branch</h2>
+                <h3>Adenta SSNIT GYM</h3>
+                <p>Block 72</p>
+
+                <p class="open">Open Hours</p>
+                
+                <p class="time">Everyday 5:30am to 11:00pm </p>
+            </div>
+
+            <div class="other-branch">
+                <h2 class="other-branches">Other branches</h2>
+                <h3>Adenta SSNIT GYM</h3>
+                <p>Block 72</p>
+            </div>
+        </div>    
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.030235897618!2d-0.16071038519711367!3d5.708770795862356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9de355fc7e43%3A0xf082e99241bcbad5!2sAdenta%20SSNIT%20Flats%20Block%2072!5e0!3m2!1sen!2sgh!4v1661348126792!5m2!1sen!2sgh" width="300" height="160" style="border: 1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+             </iframe>
+    
+                
+                <!-- <div >
+                    <h2>Madina SSNIT GYM</h2>
+                    <h3>Block 72</h3>
+                    <button class="address-2">Address 2</button>
+                </div> -->
+        </div>
+        
+        
+    </div>
+<!-- Sign up section -->
+    <div class="sign-up-container">
+        <div class="sign-up-section">
+            <h2>Sign Up</h2>
+            <h3>Already a member? <a href="#" class="sign-log">Log In here</a></h3>
+
+            <form class="sign-up-form">
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                     <input type="email" name="email" id="email" class="form-email form-input" placeholder="kobby@gymmail.com"> 
+
+                    <label for="pass">Password</label>
+                    <input type="password" class="form-password form-input" name="pass" id="pass">
+                
+                    <button type="button" class="form-btn">Sign Up</button>
+                </div>
+
+                
+                <h4 class="form-or">OR</h4>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-facebook"></i>
+
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <h2>Copyright of Some Gym</h2>
+    </footer>
 </body>
 </html>
