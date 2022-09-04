@@ -2,10 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif
-    /* font-family: 'Coda', cursive; */
+    /* font-family: Arial, Helvetica, sans-serif */
+    font-family: 'Coda', cursive;
     /* font-family: 'Black Ops One', cursive; */
     /* font-family: 'Audiowide', cursive; */
+    /* font-family: 'Squada One', cursive; */
     /* font-family: 'Big Shoulders Display', cursive; */
     /* font-family: 'Share', cursive; */
     /* font-family: 'Oxanium', cursive; */
@@ -102,6 +103,56 @@
     font-size: 3vw;
     text-align: center;
     line-height: 1.4;
+}
+
+.pricing-plans {
+
+}
+
+.pricing-plans__container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pricing-plans__plan {
+    width: 75%;
+    border: 1px solid black;
+    padding: 3.75em;
+    margin: 3rem 0;
+}
+
+.pricing-plans__tier {
+    font-size: medium;
+    padding-bottom: 1em;
+}
+
+.pricing-plans__price {
+    font-size: 9vw;
+}
+
+.pricing-plans__charge-frequency {
+
+}
+
+.pricing-plans__feature-list {
+    list-style: none;
+    margin: 2em 0;
+}
+
+.pricing-plans__feature-item {
+    
+}
+
+.pricing-plans__join-link {
+    /* width: 40%; */
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    /* margin: 6em 0; */
 }
 
 /* BREAKPOINTS */
@@ -212,6 +263,50 @@
         font-size: 2.25vw; 
         /* width: 50%; */
     }
+
+    /* Pricing Plans section */
+    .pricing-plans {
+
+    }
+    
+    .pricing-plans__container {
+        
+    }
+    
+    .pricing-plans__plan {
+        width: 70%;
+        /* height: 100vh; */
+    }
+    
+    .pricing-plans__tier {
+        font-size: 2.5vw;
+        /* padding-bottom: 1em; */
+    }
+    
+    .pricing-plans__price {
+        font-size: 8vw;
+    }
+    
+    .pricing-plans__charge-frequency {
+        font-size: 2.5vw;
+    }
+    
+    .pricing-plans__feature-list {
+        padding: 3em 0;
+        font-size: 2.5vw;
+    }
+    
+    .pricing-plans__feature-item {
+        
+    }
+    
+    .pricing-plans__join-link {
+        /* width: 40%; */
+        
+        font-size: 2.5vw;
+        padding: 1.5em;
+        margin: 8em 0;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -310,5 +405,50 @@
         font-size: 1.25vw; 
         line-height: 1.6;
         /* width: 50%; */
+    }
+
+    /* Pricing Plans section */
+    .pricing-plans {
+
+    }
+    
+    .pricing-plans__container {
+        flex-direction: row;
+        /* flex-flow: row wrap; */
+    }
+    
+    .pricing-plans__plan {
+        width: 30%;
+        height: 80vh;
+        padding: 0.5em 0;
+    }
+    
+    .pricing-plans__tier {
+        /* padding-bottom: 1em; */
+        font-size: 1.5vw;
+    }
+    
+    .pricing-plans__price {
+        font-size: 4vw;
+    }
+    
+    .pricing-plans__charge-frequency {
+        font-size: 1.25vw;
+    }
+    
+    .pricing-plans__feature-list {
+        padding: 0.25em 0;
+        font-size: 1.5vw;
+    }
+    
+    .pricing-plans__feature-item {
+        
+    }
+    
+    .pricing-plans__join-link {
+        /* width: 40%; */
+        font-size: 1.5vw;
+        padding: 0.5em;
+        /* margin: 8em 0; */
     }
 }
