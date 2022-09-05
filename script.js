@@ -13,3 +13,7 @@ function handleClose() {
     logInContainer.classList.remove("log-in-modal")
     console.log('asdasd')
 }
+
+// logInContainer.addEventListener("click", ()=>{
+//     logInContainer.classList.remove("log-in-modal")
+// })

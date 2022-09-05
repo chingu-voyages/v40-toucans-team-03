@@ -1,5 +1,5 @@
 :root{
-    --address-font: 'Roboto', sans-serif;
+    --body-font: 'Oxanium', sans-serif;
     --sign-up-font-color: #fff
 }
 
@@ -11,6 +11,8 @@
 
 html,body{
     scroll-behavior: smooth;
+    background-color: #e9ecef;
+    font-style: "Oxanium";
 }
 
 .log-in-container{
@@ -21,11 +23,11 @@ html,body{
     height: 100vh;
     width: 100%;
     z-index: 1;
-    background-color: hsl(0, 0%, 0%, 0.9);
+    background-color: #e9ecef;
 }
 
 .close{
-    color: var(--sign-up-font-color);
+    color: orange;
     display: flex;
     justify-content: flex-end;
 }
@@ -38,17 +40,18 @@ html,body{
 
 .log-in-section{
     width: 80%;
-    max-width: 500px;
+    max-width: 450px;
     display: flex;
     padding: 10px 12px 10px;
     flex-direction: column;
     margin: 4rem 0 4.5rem;
     outline: 0;
     border-radius: 5px;
-    font-family: var(--address-font);
-    background-color: hsl(208, 54%, 29%, 0.8);
-    color: var(--sign-up-font-color);
-
+    font-family: var(--body-font);
+    background-color: #fff;
+    color: orange;
+    /* border: 1px solid orange; */
+    z-index: 1;
 }
 
 .log-in-section > h2, .log-in-section > h3 {
@@ -56,12 +59,24 @@ html,body{
 }
 
 .log-in-section > h3 > a {
-    color: var(--sign-up-font-color);
+    color: orange;
 }
+
+.log-in-section label{
+    color: #495057;
+}
+
+/* @media only screen and (min-width:768px){
+    .close{
+        color: orange;
+        display: flex;
+        justify-content: flex-end;
+    }
+} */
 
 .navbar{
     border-bottom: 1px solid gray;
-    box-shadow: 0px 1.5px 30px 0px gray
+    /* box-shadow: 0px 1.5px 30px 0px gray */
 }
 
 .navbar > ul{
@@ -75,8 +90,8 @@ li{
     list-style: none;
 }
 
-.big-loc-container{
-    background-image: url(./assets/gym.jpg);
+.location-signup-container{
+    /* background-image: url(./assets/gym.jpg); */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -84,17 +99,17 @@ li{
     text-align: center;
 }
 
-.big-loc-container::after{
+/* .location-signup-container::after{
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, hsla(224, 68%, 21%, 0.9) 5%, hsla(224, 68%, 21%, 0.3) 21%);;
+  
     z-index: -1;
-}
+} */
 
-.big-loc-container h1{
-    color: #ffff;
-    font-family: var(--address-font);
+.location-signup-container h1{
+    color: orange;
+    font-family: var(--body-font);
 }
 
 .location-container{
@@ -102,7 +117,7 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    border-bottom: 0.5px solid hsl(0, 0%, 0%, 0.2);
 }
 
 /* Break point for the locations section */
@@ -123,7 +138,7 @@ li{
     max-width: 500px;
     border-radius: 5px;
     color: black;
-    background-color: hsl(0, 0%, 100%, 0.8);
+    background-color: hsl(0, 0%, 100%);
    box-shadow: 0 2px 10px 0 hsla(150, 100%, 100%, 0.521);
    margin: 2rem 0;
 }
@@ -134,9 +149,10 @@ li{
     justify-content: space-between;
     align-items: center;
     margin: 0 0 20px;
-    font-family: 'Roboto', monospace;
+    font-family: var(--body-font);
     font-weight: 400;
     line-height: 1.5em;
+    color: #495057;
 }
 
 .main-branch > h2, .other-branch > h2 {
@@ -207,25 +223,29 @@ li{
 }
 
 #sign-up-header{
-    color: #ffff;
+    color: orange;
     margin-top: 30px;
     font-size: 2.5rem;
-    font-family: var(--address-font);
+    font-family: var(--body-font);
     font-weight: 500;
 }
 
 .sign-up-section{
     width: 80%;
-    max-width: 500px;
+    max-width: 450px;
     display: flex;
     padding: 10px 12px 10px;
     flex-direction: column;
     margin: 2rem 0 4.5rem;
     outline: 0;
     border-radius: 5px;
-    font-family: var(--address-font);
-    background-color: hsl(208, 54%, 29%, 0.8);
-    color: var(--sign-up-font-color);
+    font-family: var(--body-font);
+    background-color: #ffff;
+    color: orange;
+}
+
+.sign-up-section label {
+    color: #495057;
 }
 
 .input-group{
@@ -241,10 +261,11 @@ li{
 }
 
 .input-group > input{
-    background-color: #ffff;
-    color: black;
+    background-color: hsl(0, 0%, 100%, 0.5);
+    color: #495057;
     border-radius: 3px;
-    border-color: #ffff;
+    border:1px solid #ffa500;
+    font-family: var(--body-font);
 }
 
 form{
@@ -252,23 +273,18 @@ form{
 }
 
 .form-btn{
-    background-color: hsl(208, 51%, 34%);
+    background-color: hsl(39, 96%, 51%);
     border-radius: 3px;
-    border-color: hsl(208, 51%, 34%);
+    border: 1px solid hsl(39, 100%, 50%);
     color: var(--sign-up-font-color);
     font-size: 1rem;
     font-weight: 700;
+    font-family: var(--body-font);
     
 }
 
-footer{
-    text-align: center;
-    align-items: center;
-    padding: 20px;
-}
-
-a{
-    color: var(--sign-up-font-color);
+.sign-up-section > h3 > a{
+    color: orange;
 }
 
 .sign-up-section > h2, .sign-up-section > h3{
@@ -276,8 +292,64 @@ a{
     padding: 0.5rem;
 }
 
-input:invalid {
-    border: red solid 3px;
+input:invalid:focus {
+    border: red solid 1px;
+    outline: none;
   }
-  
 
+input:valid:focus{
+    border: lime solid 1px;
+    outline: none;
+}
+
+input::placeholder{
+    color: #989ea4;
+    font-family: var(--body-font);
+}
+  
+footer{
+    background-color: #495057;
+    align-items: center;
+    padding: 20px;
+    font-family: var(--body-font);
+    display: block;
+    text-align: center;
+}
+
+.social, .terms, .contact, .footer-logo{
+    color: #ffff;
+    border-bottom:1px solid #e9ecef;
+}
+
+.social{
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+
+footer *{
+    padding: 0.5rem;
+}
+
+#copyright{
+    color: #ffff;
+    text-align: center;
+    align-items: center;
+}
+
+@media only screen and (min-width:768px) {
+    .footer-main{
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    .footer-main > .contact, .footer-logo, .social, .terms{
+        border-bottom: none;
+        
+    }
+
+    .social{
+        display: flex;
+        flex-direction: column;
+    }
+}

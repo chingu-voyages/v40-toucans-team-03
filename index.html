@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toucans Gym</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;500;600;700&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
     
     <script src="https://kit.fontawesome.com/3eaf94b212.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
@@ -27,10 +27,10 @@
 
                 <div class="input-group">
                     <label for="email">Email</label>
-                     <input type="email" name="email" id="email" class="form-email form-input" placeholder="kobby@gymmail.com"> 
+                     <input type="email" name="email" id="email" class="form-email form-input" placeholder="kobby@gymmail.com" required> 
 
                     <label for="pass">Password</label>
-                    <input type="password" class="form-password form-input" name="pass" id="pass">
+                    <input type="password" class="form-password form-input" name="pass" id="pass" required>
                 
                     <button type="button" class="form-btn">Log In</button>
                 </div>
@@ -50,8 +50,8 @@
     </nav>
 
 
-<!-- Location section -->
-<div class="big-loc-container">
+<!-- Location -sign up section -->
+<div class="location-signup-container">
         <h1>Find Us Here...</h1>
    
     
@@ -59,14 +59,14 @@
         
         <div class="branch">
             <div class="main-branch">
-                <h2>Our main branch</h2>
-                <h3>Adenta SSNIT GYM</h3>
-                <p>Block 72</p>
+                <h2>Our Main Branch</h2>
+                <h3>Toucans03 GYM</h3>
+                <p>Red Street, Block 72</p>
 
-                <p class="open">Open Hours</p>
+                <p class="open">Open Hours:</p>
                 
                 <p class="time">Everyday 5:30am to 11:00pm </p>
-            </div>
+            </div>  
 
             <div class="other-branch">
                 <h2 class="other-branches">Other branches</h2>
@@ -84,20 +84,20 @@
     <!-- Sign up section -->
     <div class="sign-up-container">
         <h2 id="sign-up-header">Join us for more information</h2>
-        <div class="sign-up-section">
+        <div class="sign-up-section" id="sign-up">
 
             <h2>Sign Up</h2>
             <h3>Already a member? <a href="#" class="sign-log">Log In here</a></h3>
 
-            <form class="sign-up-form" id="sign-up">
+            <form class="sign-up-form" >
                 <div class="input-group">
                     <label for="user-name">User name</label>
-                     <input type="text"  name="user-name" id="user-name" class="form-user form-input" placeholder="kobby123"> 
+                     <input type="text"  name="user-name" id="user-name" class="form-user form-input" placeholder="kobby123" required> 
                     <label for="email">Email</label>
-                     <input type="email"  name="email" id="email" class="form-email form-input" placeholder="kobby@gymmail.com"> 
+                     <input type="email"  name="email" id="email" class="form-email form-input" placeholder="kobby@gymmail.com" required> 
 
                     <label for="pass">Password</label>
-                    <input type="password" pattern="[A-Z][a-z]{1,14}[0-9]{1,4}" aria-required="true" class="form-password form-input" name="pass" id="pass">
+                    <input type="password" pattern="[A-Z][a-z]{1,14}[0-9]{1,4}" class="form-password form-input" name="pass" id="pass" required>
                 
                     <button type="submit" class="form-btn">Sign Up</button>
                 </div>
@@ -107,7 +107,38 @@
     </div>
 </div>
     <footer>
-        <h2>Copyright of Some Gym</h2>
+        <div class="footer-main">
+        <div class="footer-logo">
+            <h2>Toucans Gym</h2>
+        </div>
+        
+
+        <div class="contact">
+            <h4>Contact Us</h4>
+            <p>somegym@gymail.com</p>
+            <p>Weekdays 9:30am to 9:00pm</p>
+            <p>001-025-1585</p> 
+        </div>
+
+        <div class="social">
+            <h4>Social Media</h4>
+            <div class="brands">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-telegram"></i>
+            </div>
+            
+        </div>
+
+        <div class="terms">
+            <h4>Legal</h4>
+            <p>Terms of use</p>
+            <p>Privacy Policy</p>
+            
+        </div>
+    </div>
+        <p id="copyright"><i class="fa-regular fa-copyright"></i> Toucans Inc. 2022</p>
     </footer>
     
 </body>
