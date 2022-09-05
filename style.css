@@ -280,7 +280,11 @@ form{
     font-size: 1rem;
     font-weight: 700;
     font-family: var(--body-font);
-    
+    cursor: pointer;
+}
+
+.form-btn:hover{
+    background-color: #f6b36c;
 }
 
 .sign-up-section > h3 > a{
@@ -306,7 +310,8 @@ input::placeholder{
     color: #989ea4;
     font-family: var(--body-font);
 }
-  
+
+  /* Footer styling begins from here */
 footer{
     background-color: #495057;
     align-items: center;
@@ -319,6 +324,7 @@ footer{
 .social, .terms, .contact, .footer-logo{
     color: #ffff;
     border-bottom:1px solid #e9ecef;
+
 }
 
 .social{
@@ -336,6 +342,8 @@ footer *{
     align-items: center;
 }
 
+/* Break point for the footer */
+
 @media only screen and (min-width:768px) {
     .footer-main{
         display: flex;
@@ -351,5 +359,10 @@ footer *{
     .social{
         display: flex;
         flex-direction: column;
+    }
+
+    .contact > p:hover, .brands > i:hover, .terms > p:hover{
+        cursor: pointer;
+        text-decoration: underline;
     }
 }
