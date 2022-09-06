@@ -9,12 +9,14 @@
     box-sizing: border-box;
 }
 
+/* the background color and scroll behavior on the page */
 html,body{
     scroll-behavior: smooth;
     background-color: #e9ecef;
     font-style: "Oxanium";
 }
 
+/* the log in modal styling */
 .log-in-container{
     display: none;
     justify-content: center;
@@ -27,7 +29,7 @@ html,body{
 }
 
 .close{
-    color: orange;
+    color: #e03131;
     display: flex;
     justify-content: flex-end;
 }
@@ -49,8 +51,7 @@ html,body{
     border-radius: 5px;
     font-family: var(--body-font);
     background-color: #fff;
-    color: orange;
-    /* border: 1px solid orange; */
+    color: #e03131;
     z-index: 1;
 }
 
@@ -59,24 +60,16 @@ html,body{
 }
 
 .log-in-section > h3 > a {
-    color: orange;
+    color: #e03131;
 }
 
 .log-in-section label{
     color: #495057;
 }
 
-/* @media only screen and (min-width:768px){
-    .close{
-        color: orange;
-        display: flex;
-        justify-content: flex-end;
-    }
-} */
-
+/* the navbar section is just to show what the sign up button does */
 .navbar{
     border-bottom: 1px solid gray;
-    /* box-shadow: 0px 1.5px 30px 0px gray */
 }
 
 .navbar > ul{
@@ -90,8 +83,8 @@ li{
     list-style: none;
 }
 
+/* location and sign-up section start from here */
 .location-signup-container{
-    /* background-image: url(./assets/gym.jpg); */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -99,16 +92,8 @@ li{
     text-align: center;
 }
 
-/* .location-signup-container::after{
-    content: "";
-    position: absolute;
-    inset: 0;
-  
-    z-index: -1;
-} */
-
 .location-signup-container h1{
-    color: orange;
+    color: #e03131;
     font-family: var(--body-font);
 }
 
@@ -178,6 +163,7 @@ li{
     display: none;
 }
 
+/* Breakpoint for the location section */
 @media only screen and (min-width: 768px) {
 
     .location-container{
@@ -203,6 +189,7 @@ li{
     }
 }
 
+/* sign-up section styling */
 .sign-up-container{
     display: flex;
     justify-content: center;
@@ -215,15 +202,8 @@ li{
     flex-direction: column;
 }
 
-.sign-up-container::after{
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-}
-
 #sign-up-header{
-    color: orange;
+    color: #e03131;
     margin-top: 30px;
     font-size: 2.5rem;
     font-family: var(--body-font);
@@ -241,13 +221,14 @@ li{
     border-radius: 5px;
     font-family: var(--body-font);
     background-color: #ffff;
-    color: orange;
+    color: #e03131;
 }
 
 .sign-up-section label {
     color: #495057;
 }
 
+/* styling of the input elements and forms */
 .input-group{
     display: flex;
     flex-direction: column;
@@ -264,7 +245,7 @@ li{
     background-color: hsl(0, 0%, 100%, 0.5);
     color: #495057;
     border-radius: 3px;
-    border:1px solid #ffa500;
+    border:1px solid #e03131;
     font-family: var(--body-font);
 }
 
@@ -272,10 +253,11 @@ form{
     text-align: justify;
 }
 
+/* form buttons */
 .form-btn{
-    background-color: hsl(39, 96%, 51%);
+    background-color: #e03131;
     border-radius: 3px;
-    border: 1px solid hsl(39, 100%, 50%);
+    border: 1px solid #e03131;
     color: var(--sign-up-font-color);
     font-size: 1rem;
     font-weight: 700;
@@ -284,11 +266,11 @@ form{
 }
 
 .form-btn:hover{
-    background-color: #f6b36c;
+    background-color: #e03131;
 }
 
 .sign-up-section > h3 > a{
-    color: orange;
+    color: #e03131;
 }
 
 .sign-up-section > h2, .sign-up-section > h3{
@@ -296,6 +278,7 @@ form{
     padding: 0.5rem;
 }
 
+/* input focus, invalid and valid features */
 input:invalid:focus {
     border: red solid 1px;
     outline: none;
