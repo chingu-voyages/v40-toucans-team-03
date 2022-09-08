@@ -283,11 +283,15 @@ form{
 }
 
 .form-btn:hover{
-    background-color: #f03737;
+    background-color: #501111;
+}
+
+.form-btn:focus{
+    transform: scale(1,0.95);
 }
 
 .sign-up-section > h3 > a{
-    color: #501111;
+    color: #6f1a1a;
 }
 
 .sign-up-section > h2, .sign-up-section > h3{
