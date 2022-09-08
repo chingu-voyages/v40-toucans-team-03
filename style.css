@@ -26,10 +26,27 @@ html,body{
     width: 100%;
     z-index: 1;
     background-color: #e9ecef;
+    position: relative;
+}
+
+.login-title{
+    position: absolute;
+    /* border: 2px solid blue; */
+
+    top: 50px;
+    font-family: var(--body-font);
+    font-size: 1.5rem;
+    color: #e03131;
+}
+
+@media only screen and (min-width:768px){
+    .login-title{
+        font-size: 2rem;
+    }
 }
 
 .close{
-    color: #e03131;
+    color: #501111;
     display: flex;
     justify-content: flex-end;
 }
@@ -51,7 +68,7 @@ html,body{
     border-radius: 5px;
     font-family: var(--body-font);
     background-color: #fff;
-    color: #e03131;
+    color: #501111;
     z-index: 1;
 }
 
@@ -60,11 +77,11 @@ html,body{
 }
 
 .log-in-section > h3 > a {
-    color: #e03131;
+    color: #501111;
 }
 
 .log-in-section label{
-    color: #495057;
+    color: #501111;
 }
 
 /* the navbar section is just to show what the sign up button does */
@@ -221,11 +238,7 @@ li{
     border-radius: 5px;
     font-family: var(--body-font);
     background-color: #ffff;
-    color: #e03131;
-}
-
-.sign-up-section label {
-    color: #495057;
+    color: #501111;
 }
 
 /* styling of the input elements and forms */
@@ -245,12 +258,16 @@ li{
     background-color: hsl(0, 0%, 100%, 0.5);
     color: #495057;
     border-radius: 3px;
-    border:1px solid #e03131;
+    border:1px solid #501111;
     font-family: var(--body-font);
 }
 
 form{
     text-align: justify;
+}
+
+.sign-up-section label {
+    color: #501111;
 }
 
 /* form buttons */
@@ -266,11 +283,11 @@ form{
 }
 
 .form-btn:hover{
-    background-color: #e03131;
+    background-color: #f03737;
 }
 
 .sign-up-section > h3 > a{
-    color: #e03131;
+    color: #501111;
 }
 
 .sign-up-section > h2, .sign-up-section > h3{
