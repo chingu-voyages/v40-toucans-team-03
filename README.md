@@ -1,18 +1,18 @@
 # README
 
-# [Title]
+## [Title]
 
 T3 Gym Home/Landing Page
 
-# [Overview]
+## [Overview]
 
 The purpose of this project is as part of a team project for Chingu Voyage 40. It is a hypothetical one-page brochure site advertising and detailing a fictional upcoming and modern but minimal gym.
 
-# [Features]
+## [Features]
 
 The site for the gym is split into different sections with various information and/or functions. Details include:
 
-## [[Sections]]
+### [[Sections]]
 
 - Main Navigation (speaks for itself)
 - About Us (info about the gym and the people behind it)
@@ -23,15 +23,15 @@ The site for the gym is split into different sections with various information a
 - Sign Up/Sign In (users interested in the gym can enter their details and sign up, or sign into an existing account)
 - Footer (much like the main navigation, also speaks for itself)
 
-# [Running the project]
+## [Running the project]
 
 Link TBA
 
-# [Dependencies]
+## [Dependencies]
 
 None at the moment.
 
-# [Contributors]
+## [Contributors]
 
 These are the wonderful people to thank for the project:
 
