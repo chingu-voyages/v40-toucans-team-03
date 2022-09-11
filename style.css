@@ -1,0 +1,1181 @@
+/* Germaine's CSS */
+
+
+/* Marv's CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+html, body {
+    /* font-size: 62.5%; */
+    font-family: "Oxanium", sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: #e9ecef;
+    
+}
+  
+  body {
+    /* font-family: "Oxanium", sans-serif; */
+    /* line-height: 1;
+    font-weight: 400;
+    
+    overflow-x: hidden; */
+    /* color: #25282c; */
+  }
+  .header {
+    display: flex;
+    background-color: #808589;
+    /* font-size: 50px; */
+    font-weight: 700;
+    /* font-style: oblique; */
+    justify-content: space-between;
+    align-items: center;
+    height: 9.6rem;
+    color: #501111;
+    padding: 0 4.8rem;
+
+    position: relative;
+  }
+  .gym-name {
+    font-size: 5rem;
+    padding: 0 4.8rem;
+  }
+  
+  
+  .section-hero {
+    /* background-image: url(hero.jpg); */
+    background-color: #808589;
+    padding: 4.8rem 0 9.6rem 0;
+  }
+  
+  .hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+  }
+  
+  .heading-primary {
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.05;
+    color: #16181a;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+  }
+  .hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+  }
+  
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    background-color: #e03131;
+    /* color: #fff; */
+    text-decoration: none;
+    padding: 1.6rem 3.2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 9px;
+    transition: all 0.5s;
+  }
+  
+  .btn--full:link,
+  .btn--full:visited {
+    background-color: #e03131;
+    color: #fff;
+  }
+  
+  .btn--full:hover,
+  .btn--full:active {
+    background-color: #501111;
+    color: #fff;
+  }
+  
+  .btn--outline:link,
+  .btn--outline:visited {
+    background-color: #808589;
+    color: #25282c;
+  }
+  
+  .btn--outline:hover,
+  .btn--outline:active {
+    background-color: #f1f3f5;
+    color: #ffc9c9;
+  
+    box-shadow: inset 0 0 0 3px #fff;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .margin-right-sm {
+    margin-right: 1.6rem !important;
+  }
+  
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+  }
+  
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    text-decoration: none;
+    color: #16181a;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+  }
+  
+  .main-nav-link:hover,
+  .main-nav-link:active {
+    color: #501111;
+  }
+  
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #f1f3f5;
+    background-color: #e03131;
+  }
+  
+  .main-nav-link.nav-cta:hover,
+  .main-nav-link.nav-cta:active {
+    background-color: #501111;
+  }
+  
+  .btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+  
+    display: none;
+  }
+  
+  .icon-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #fff;
+    background-color: #501111;
+  }
+  
+  .icon-mobile-nav[name="close-outline"] {
+    display: none;
+  }
+  
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Matt's CSS */
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxanium', cursive;
+} */
+
+body {
+    /* background: #ced4da; */
+}
+
+.hero-img {
+    width: 95%;
+    padding: 0 2rem;
+    gap: 6.4rem;
+  }
+  .gym-name {
+    font-size: 5rem;
+    padding: 0 1.8rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    padding: 2.2rem 0.7rem;
+  }
+
+.section-heading {  
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us__left-col {
+    background: #501111;
+    color: white;
+}
+
+.about-us__paragraph {
+    width: 95%;
+    /* max-width: 90%; */
+    padding: 1.75rem;
+    text-align: center;
+}
+
+.about-us__right-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us__profile {
+    /* max-width: 25%; */
+    padding: 3rem 0;
+    
+}
+
+.about-us__profile-image {
+    width: 60vw;
+    border: 3px solid #501111;
+    border-radius: 5%;
+    /* height: 33vh;     */
+}
+
+.about-us__caption {
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 0.25em;
+}
+/* 
+.about-us__role {
+    font-weight: bold;
+} */
+
+/* OUR FEATURES SECTION */
+.our-features {
+    background: #501111;
+    color: white;
+}
+
+.our-features__features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-features__icon {
+    margin: 0.5rem 0;
+}
+
+.our-features__icon-space {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* background-color: grey; */
+    /* width: 33vw;
+    height: 350px; */
+    padding: 5em;
+    /* padding: 3.5em 0; */
+    margin: 1rem 0;
+}
+
+.our-features__icon-image {
+    /* align-self: center; */
+    /* color: white; */
+}
+
+.our-features__title {
+    /* background-color: grey; */
+    /* margin: 1rem 0; */
+    font-size: 4vw;
+    text-align: center;
+}
+
+.our-features__description {
+    /* background-color: grey; */
+    width: 80%;
+    /* margin: 1rem 0 2.5rem 0; */
+    margin: auto;
+    padding: 1rem 0 2.5rem 0;
+    font-size: 3vw;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.our-features__description > a {
+    text-decoration: none;
+    color: #ffa8a8;
+}
+
+/* PRICING PLANS SECTION */
+.pricing-plans {
+
+}
+
+.pricing-plans__container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pricing-plans__plan {
+    width: 75%;
+    background-color: #e9ecef;
+    /* border: 1px solid black; */
+    border: 3px solid #501111;
+    border-radius: 5%;
+    padding: 3.75em;
+    margin: 3rem 0;
+    box-shadow: 20px 20px 10px grey;
+}
+
+.pricing-plans__tier {
+    font-size: 5.5vw;
+    padding-bottom: 1em;
+    color: #501111;
+}
+
+.pricing-plans__price {
+    font-size: 9vw;
+    color: #501111;
+    /* color: #e03131; */
+}
+
+.pricing-plans__charge-frequency {
+    color: #501111;
+}
+
+.pricing-plans__feature-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 2em 0;
+}
+
+.pricing-plans__feature-item {
+    padding: 0.5em 0;
+}
+
+.pricing-plans__join-link {
+    /* width: 40%; */
+    text-decoration: none;
+    background-color: #e03131;
+    /* background-color:  #501111; */
+    color: white;
+    padding: 1.25em 4em;
+    border-radius: 5%;
+    /* margin: 6em 0; */
+}
+
+/* Germaine's CSS */
+
+/* the log in modal styling */
+.log-in-container{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    background-color: #e9ecef;
+    position: relative;
+}
+
+.login-title {
+    position: absolute;
+    /* border: 2px solid blue; */
+
+    top: 50px;
+    font-family: white;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.close{
+    color: #501111;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.log-in-modal{
+    display: flex;
+    position: fixed;
+    
+}
+
+.log-in-section{
+    width: 80%;
+    max-width: 450px;
+    display: flex;
+    padding: 10px 12px 10px;
+    flex-direction: column;
+    margin: 4rem 0 4.5rem;
+    outline: 0;
+    border-radius: 5px;
+    font-family: white;
+    background-color: white;
+    color: #501111;
+    z-index: 1;
+}
+
+.log-in-section > h2, .log-in-section > h3 {
+    text-align: center;
+}
+
+.log-in-section > h3 > a {
+    color: #501111;
+}
+
+.log-in-section label{
+    color: #501111;
+}
+
+/* the navbar section is just to show what the sign up button does */
+.navbar{
+    border-bottom: 1px solid gray;
+}
+
+.navbar > ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 10px;
+}
+
+li{
+    list-style: none;
+}
+
+/* location and sign-up section start from here */
+.location-signup-container{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    isolation: isolate;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.location-signup-container h1{
+    color: black;
+    font-family: white;
+}
+
+.location-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid hsl(0, 0%, 0%, 0.2);
+    margin-bottom: 20px;
+}
+
+.branch{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    color: black;
+    background-color: hsl(0, 0%, 100%);
+   box-shadow: 0 2px 10px 0 hsla(150, 100%, 100%, 0.521);
+   margin: 2rem 0;
+}
+
+.main-branch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px;
+    font-family: var(--body-font);
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #501111;
+}
+
+.main-branch > h2, .other-branch > h2 {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.main-branch > h3, .other-branch > h3 {
+    font-weight: 500;
+}
+
+.other-branch{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', monospace;
+    font-weight: 400;
+    line-height: 0.5em;
+}
+
+.map{
+    display: none;
+}
+
+/* sign-up section styling */
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    isolation: isolate;
+    flex-direction: column;
+}
+
+#sign-up-header{
+    color: black;
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-family: var(--body-font);
+    font-weight: 500;
+}
+
+.sign-up-section{
+    width: 80%;
+    max-width: 450px;
+    display: flex;
+    padding: 10px 12px 10px;
+    flex-direction: column;
+    margin: 2rem 0 4.5rem;
+    outline: 0;
+    border-radius: 5px;
+    font-family: var(--body-font);
+    background-color: #ffff;
+    color: #501111;
+}
+
+/* styling of the input elements and forms */
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px;
+    line-height: 2em;
+}
+
+.input-group > input, .form-btn{
+    margin-bottom: 1em;
+    padding: 0.5rem;
+}
+
+.input-group > input{
+    background-color: hsl(0, 0%, 100%, 0.5);
+    color: #495057;
+    border-radius: 3px;
+    border:1px solid #501111;
+    font-family: var(--body-font);
+}
+
+form{
+    text-align: justify;
+}
+
+.sign-up-section label {
+    color: #501111;
+}
+
+/* form buttons */
+.form-btn{
+    background-color: #e03131;
+    border-radius: 3px;
+    border: 1px solid #e03131;
+    color: var(--sign-up-font-color);
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--body-font);
+    cursor: pointer;
+}
+
+.form-btn:hover{
+    background-color: #501111;
+}
+
+.form-btn:focus{
+    transform: scale(1,0.95);
+}
+
+.sign-up-section > h3 > a{
+    color: #6f1a1a;
+}
+
+.sign-up-section > h2, .sign-up-section > h3{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/* input focus, invalid and valid features */
+input:invalid:focus {
+    border: red solid 1px;
+    outline: none;
+  }
+
+input:valid:focus{
+    border: lime solid 1px;
+    outline: none;
+}
+
+input::placeholder{
+    color: #989ea4;
+    font-family: var(--body-font);
+}
+
+  /* Footer styling begins from here */
+footer{
+    background-color: #495057;
+    align-items: center;
+    padding: 20px;
+    font-family: var(--body-font);
+    display: block;
+    text-align: center;
+}
+
+.social, .terms, .contact, .footer-logo{
+    color: #ffff;
+    border-bottom:1px solid #e9ecef;
+
+}
+
+.social{
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+
+footer *{
+    padding: 0.5rem;
+}
+
+#copyright{
+    color: #ffff;
+    text-align: center;
+    align-items: center;
+}
+
+/* BREAKPOINTS */
+
+/** Marv's CSS */
+@media (max-width: 44em) {
+    .hero-img {
+      width: 85%;
+      padding: 0 8rem;
+      gap: 6.4rem;
+    }
+}
+/*-------------------------------*/
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    body {
+        /* background-color: orange; */
+    }
+
+    /* Marv's CSS */
+    /* html {
+      font-size: 50%;
+    } */
+  
+    .hero {
+        grid-template-columns: 1fr;
+      }
+    
+      .hero-img {
+        width: 85%;
+        padding: 0 8rem;
+        gap: 6.4rem;
+      }
+    
+      .hero-text-box,
+      .hero-img-box {
+        text-align: center;
+      }
+    
+      .btn-mobile-nav {
+        display: block;
+        z-index: 1000;
+      }
+    
+      .main-nav {
+        background-color: #f1f3f5;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(100%);
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease-in;
+    
+        opacity: 0;
+    
+        pointer-events: none;
+    
+        visibility: hidden;
+      }
+    
+      .nav-open .main-nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+    
+        transform: translateX(0);
+      }
+    
+      .main-nav-list {
+        flex-direction: column;
+        gap: 4.8rem;
+      }
+    
+      .main-nav-link:link,
+      .main-nav-link:visited {
+        font-size: 3rem;
+      }
+    
+      .nav-open .icon-mobile-nav[name="close-outline"] {
+        display: block;
+      }
+    
+      .nav-open .icon-mobile-nav[name="menu-outline"] {
+        display: none;
+      }
+      /*-------------------------------*/
+
+
+    .about-us {
+        margin-bottom: 3rem;
+    }
+
+    .about-us__left-col {   
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* background-color: orange;     */
+        color: white;
+        /* color: black; */
+        background-image: url(assets/images/about-us-BG-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* background-size: 640px 793px; */
+        /* background-size: 50vw 100vh; */
+
+        /* BG BLEND MODE CHOICES */
+
+        /* background-blend-mode: screen;  */
+        /* background-blend-mode: lighten; */
+        /* background-blend-mode: color-dodge;  */
+
+        background-blend-mode: darken;
+        /* background-blend-mode: color-burn;  */
+        /* background-blend-mode: luminosity;  */
+    }
+
+    .about-us__paragraph {
+        padding: 3rem;
+    }
+
+    .about-us__right-col {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .about-us__profile {
+        /* max-width: 25%; */
+        padding: 1rem;
+        width: 50%;
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-flow: column wrap;
+        /* align-content: center; */
+    }
+    
+    .about-us__profile-image {
+        width: 30vw;
+        /* height: 33vh;     */
+        align-self: center;
+        /* border: 2px solid red; */
+    }
+    
+    .about-us__caption {
+        /* text-align: center; */
+        font-size: 3vw;
+        /* border: 2px solid green; */
+    }
+
+
+    .our-features__features {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .our-features__icon {
+        /* display: flex;
+        flex-flow: column wrap;
+        width: 30vw; */
+        margin: auto;
+        width: 45%;
+        height: 45%;
+    }
+    
+    .our-features__icon-space {
+        /* background-color: grey; */
+        width: 100%;
+        height: 250px;
+        /* height: 25vw; */
+        padding: 8em;
+        /* margin: 1rem 0; */
+    }
+    
+    .our-features__title {
+        /* background-color: grey;
+        margin: 1rem 0;*/
+        font-size: 3vw; 
+        /* width: 50%; */
+    }
+    
+    .our-features__description {
+        /* background-color: grey;
+        margin: 1rem 0 2.5rem 0;*/
+        font-size: 2.25vw; 
+        /* width: 50%; */
+    }
+
+    /* Pricing Plans section */
+    .pricing-plans {
+
+    }
+    
+    .pricing-plans__container {
+        
+    }
+    
+    .pricing-plans__plan {
+        width: 70%;
+        /* height: 100vh; */
+    }
+    
+    .pricing-plans__tier {
+        font-size: 7vw;
+        /* padding-bottom: 1em; */
+    }
+    
+    .pricing-plans__price {
+        font-size: 8vw;
+    }
+    
+    .pricing-plans__charge-frequency {
+        font-size: 2.5vw;
+    }
+    
+    .pricing-plans__feature-list {
+        padding: 3em 0;
+        font-size: 2.5vw;
+    }
+    
+    .pricing-plans__feature-item {
+        
+    }
+    
+    .pricing-plans__join-link {
+        /* width: 40%; */
+        
+        font-size: 2.5vw;
+        padding: 1.5em 5em;
+        margin: 8em 0;
+    }
+
+    /** Germaine's CSS */
+    .login-title{
+        font-size: 2rem;
+    }
+
+    .location-container{
+        display: flex;
+        flex-direction: row;
+        padding: 2em 1.5em;
+    }
+
+    .location-container{
+        gap: 10px;
+    }
+    
+    .branch{
+        display: flex;
+        width: 50%;
+        height: 50%;
+    }
+
+    .map{
+        display: flex;
+        width: 40%;
+        height: 40%;
+        
+    }
+
+    iframe{
+        width: 100%;
+        border: 5px solid limegreen;
+    }
+
+    .footer-main{
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    .footer-main > .contact, .footer-logo, .social, .terms{
+        border-bottom: none;
+        
+    }
+
+    .social{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact > p:hover, .brands > i:hover, .terms > p:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+/*----------------------------------------------------------------*/
+
+/* Marv's CSS */
+@media (max-width: 34em) {
+    
+}
+
+
+
+@media (max-width: 62em) {
+    
+  }
+
+@media (max-width: 75em) {
+    /* html {
+      font-size: 56.25%;
+    } */
+  
+    
+  }
+
+@media (max-width: 84em) {
+    
+  }
+/*----------------------------------------------------------------*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    body {
+        /* background-color: red; */
+    }
+
+    /** Marv's CSS */
+
+    /* .header {
+        padding: 0 3.2rem;
+      }
+      .hero {
+        gap: 4.8rem;
+      }
+    
+      .main-nav-list {
+        gap: 3.2rem;
+      }
+  
+      .container {
+          max-width: 120rem;
+        }
+        .heading-primary {
+          font-size: 4.4rem;
+        } */
+    
+
+    /*----------------------------------------------------------------*/
+
+    .about-us {
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    .about-us__paragraph {
+        width: 85%;
+        /* max-width: 90%; */
+        padding: 0;
+        text-align: left;
+        margin: auto;
+        /* border: 1px solid white; */
+    }
+
+    .about-us__left-col, .about-us__right-col {
+        width: 50%;
+    }
+
+    .about-us__left-col {   
+        height: 108.5vh;
+        display: flex;
+        flex-direction: column;
+        /* background-color: black;     */
+        /* color: white; */
+        /* color: black; */
+        background-image: url(assets/images/about-us-BG3.jpg);
+        /* background-repeat: no-repeat; */
+        /* background-size: 100% 100%; */
+        /* background-size: 640px 793px; */
+        /* background-size: 50vw 100vh; */
+
+        /* BG BLEND MODE CHOICES */
+
+        /* background-blend-mode: screen;  */
+        /* background-blend-mode: lighten; */
+        /* background-blend-mode: color-dodge;  */
+
+        /* background-blend-mode: darken; */
+        /* background-blend-mode: color-burn;  */
+        /* background-blend-mode: luminosity;  */
+    }
+
+    .about-us__profile {
+        width: 50%;
+        /* padding: 2rem; */
+        /* margin: 0; */
+        /* background-color: aqua; */
+    }
+    
+    .about-us__profile-image {
+        width: 13vw;
+        /* padding: 1rem; */
+    }
+
+    .about-us__caption {
+        font-size: 1.25vw;
+        padding: 0.1em 0;
+    }
+
+    .our-features {
+        padding-top: 0.75rem;       
+    }
+
+    .our-features__features {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .our-features__icon {
+        width: 20%;
+        margin: 0 1.5rem;
+    }
+
+    .our-features__icon-space {
+        /* background-color: grey; */
+        width: 20vw;
+        padding: 3em;
+        /* margin-bottom: 1em; */
+        /* height: 25vh; */
+        /* padding: 5em; */
+        /* margin: 0.5em 0; */
+    }
+    
+    .our-features__title {
+        /* background-color: grey;
+        margin: 1rem 0;*/
+        font-size: 1.75vw; 
+        /* width: 50%; */
+    }
+    
+    .our-features__description {
+        /* background-color: grey;
+        margin: 1rem 0 2.5rem 0;*/
+        font-size: 1.25vw; 
+        line-height: 1.6;
+        /* width: 50%; */
+    }
+
+    
+.our-features__description > a:hover {
+    text-decoration: none;   
+    color: #e03131;
+}
+
+    /* Pricing Plans section */
+    .pricing-plans {
+
+    }
+    
+    .pricing-plans__container {
+        flex-direction: row;
+        /* flex-flow: row wrap; */
+    }
+    
+    .pricing-plans__plan {
+        width: 30%;
+        height: 90vh;
+        padding: 1.5em 0;
+        margin: 1em;
+    }
+    
+    .pricing-plans__tier {
+        /* padding-bottom: 1em; */
+        font-size: 2.5vw;
+    }
+    
+    .pricing-plans__price {
+        font-size: 4vw;
+    }
+    
+    .pricing-plans__charge-frequency {
+        font-size: 1.25vw;
+    }
+    
+    .pricing-plans__feature-list {
+        padding: 0.25em 0;
+        font-size: 1.5vw;
+    }
+    
+    .pricing-plans__feature-item {
+        
+    }
+    
+    .pricing-plans__join-link {
+        /* width: 40%; */
+        font-size: 1.5vw;
+        padding: 1.5em;
+        /* margin: 8em 0; */
+        /* border: 1px solid white; */
+    }
+    
+    .pricing-plans__join-link:hover {
+        /* background-color: #e03131; */
+        background-color:  #501111;
+        color: white;
+    }
+
+    .pricing-plans__join-link:active {
+        /* background-color: #e03131; */
+        background-color: white;
+        color: #e03131;
+    }
+}
