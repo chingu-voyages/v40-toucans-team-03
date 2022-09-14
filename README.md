@@ -25,7 +25,7 @@ The site for the gym is split into different sections with various information a
 
 ## [Running the project]
 
-Link TBA
+Just go here >>> (https://guileless-faun-e74c3e.netlify.app/) and peruse at your leisure.
 
 ## [Dependencies]
 
